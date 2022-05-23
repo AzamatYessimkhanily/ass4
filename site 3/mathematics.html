@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distudy</title>
+    <link rel="stylesheet" href="css\css.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="index.js"></script> 
+    <style>
+      p {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0px;
+      }
+      </style>
+</head>
+<body>
+  <div class="icon-bar">
+    <a class="active" href="home.html"><i class="fa fa-home"></i></a> 
+    <a href="informatics.html"><i class="fa fa-globe"></i></a> 
+    <a href="mathematics.html"><i class="fa fa-calculator"></i></a> 
+  </div>
+  <div class="aza">
+    <h1><strong> <p>
+      Tutors for Mathematics
+   </p></strong></h1>
+    </div>
+    <div class="row"> 
+      <div class="col-sm-4" style="background-color:#E6BA95;"> <div class="aza">ZHUKENOV MIRAS</div></div> 
+        <div class="col-sm-4" style="background-color:#E6BA95;"><div class="aza">YESSIMKHANULY AZAMAT</div></div> 
+        <div class="col-sm-4" style="background-color:#E6BA95;"><div class="aza">AMANGELDI YERNUR </div></div> > 
+      <div class="miras"> 
+<div class="col-sm-4" style="background-color:rgb(255, 255, 255);">Best teacher 2018</div> 
+<div class="col-sm-4" style="background-color:rgb(255, 255, 255);">Best teacher 2022</div> 
+<div class="col-sm-4" style="background-color:rgb(255, 255, 255);">Just a good guy</div> 
+<div class="col-sm-4" style="background-color:rgb(255, 255, 255);"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" onclick="tutor4()"  src="https://centrett.by/uploads/posts/2021-02/1613386793_user-icon.png" alt="Smiley"></div> 
+<div class="col-sm-4" style="background-color:rgb(255, 255, 255);"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" onclick="tutor5()"   src="https://centrett.by/uploads/posts/2021-02/1613386793_user-icon.png" alt="Smiley"></div> 
+<div class="col-sm-4" style="background-color:rgb(255, 255, 255);"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" onclick="tutor6()"   src="https://centrett.by/uploads/posts/2021-02/1613386793_user-icon.png" alt="Smiley"></div> 
+</div> 
+</div> 
+<div class="aza">
+  <p id="demo"></p>
+  
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Jan 5, 2024 5:37:25").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+    // Get today's date and time
+    var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+      
+    // Time calculations for days, hours, minutes and seconds
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = hours + "h "
+    + minutes + "m " + seconds + "s ";
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
+  </div>
+<div class="miras"> 
+  <div class="wrapper"> 
+    <div class="icon facebook"> 
+      <div class="tooltip">Facebook</div> 
+      <a href="https://www.facebook.com"><span><i class="fab fa-facebook-f"></i></span></a> 
+    </div> 
+    <div class="icon twitter"> 
+      <div class="tooltip">Twitter</div> 
+      <a href="https://twitter.com"><span><i class="fab fa-twitter"></i></span></a> 
+    </div> 
+    <div class="icon instagram"> 
+      <div class="tooltip">Instagram</div> 
+      <a href="https://www.instagram.com"><span><i class="fab fa-instagram"></i></span></a> 
+    </div> 
+    <div class="icon github">
+<div class="tooltip">Github</div> 
+      <a href="https://github.com"><span><i class="fab fa-github"></i></span></a> 
+    </div> 
+    <div class="icon youtube"> 
+      <div class="tooltip">Youtube</div> 
+     <a href="https://www.youtube.com"><span><i class="fab fa-youtube"></i></span></a> 
+    </div> 
+  </div> 
+</div>
+  
+</body>
+</html>
